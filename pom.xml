@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>swiss</artifactId>
-  <version>1.0.9</version>
+  <version>1.0.10</version>
   <packaging>kjar</packaging>
   <name>swiss</name>
   <description></description>
@@ -45,7 +45,19 @@
       <version>7.26.0.Final-redhat-00005</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm.contrib</groupId>
+      <artifactId>camel-workitem</artifactId>
+      <version>7.26.0.Final-redhat-00005</version>
+    </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>red-hat-ga-repository</id>
+      <name>Red Hat GA Repository</name>
+      <url>https://maven.repository.redhat.com/ga</url>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>

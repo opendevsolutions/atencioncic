@@ -24,5 +24,13 @@
         <source>SETTINGS</source>
       </metadata>
     </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>red-hat-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
   </repositories>
 </project-repositories>
