@@ -3,8 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>repo1-asFYvZZ2O8GUFwSR</id>
-        <url>http://nexus.rhpam-0a03-tools.svc:8081/content/groups/public/</url>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>repo1-vlNTgNIm6rpjc2ml</id>
+        <url>http://nexus.rhpam-64b7-tools.svc:8081/content/groups/public/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -14,14 +22,6 @@
         <id>central</id>
         <url>https://repo1.maven.org/maven2</url>
         <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/home/jboss/.m2/repository</url>
-        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
