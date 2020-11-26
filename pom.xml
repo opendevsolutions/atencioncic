@@ -4,10 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>swiss</artifactId>
-  <version>1.0.10</version>
+  <version>1.0.46</version>
   <packaging>kjar</packaging>
   <name>swiss</name>
   <description></description>
+  <properties>
+    <maven.jdbc.password>root</maven.jdbc.password>
+    <maven.jdbc.driver.class>com.mysql.jdbc.Driver</maven.jdbc.driver.class>
+    <maven.jdbc.url>mysql://localhost:3306/prueba</maven.jdbc.url>
+    <maven.jdbc.username>root</maven.jdbc.username>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -45,17 +51,17 @@
       <version>7.26.0.Final-redhat-00005</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.jbpm.contrib</groupId>
-      <artifactId>camel-workitem</artifactId>
-      <version>7.26.0.Final-redhat-00005</version>
-    </dependency>
   </dependencies>
   <repositories>
     <repository>
       <id>red-hat-ga-repository</id>
       <name>Red Hat GA Repository</name>
       <url>https://maven.repository.redhat.com/ga</url>
+    </repository>
+    <repository>
+      <id>red-hat-ea-repository</id>
+      <name>Red Hat EA Repository</name>
+      <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
     </repository>
   </repositories>
   <build>

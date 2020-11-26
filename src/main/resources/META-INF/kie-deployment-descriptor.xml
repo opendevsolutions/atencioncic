@@ -16,24 +16,6 @@
             <parameters/>
             <name>Rest</name>
         </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.camel.GenericCamelWorkitemHandler()</identifier>
-            <parameters/>
-            <name>CamelGenericConnector</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.camel.SQLCamelWorkitemHandler()</identifier>
-            <parameters/>
-            <name>CamelSQLConnector</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.camel.CXFCamelWorkitemHandler()</identifier>
-            <parameters/>
-            <name>CamelCXFConnector</name>
-        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>

@@ -32,7 +32,7 @@
 
             ],
             "mavenDependencies" : [
-                                 "org.jbpm:jbpm-workitems-rest:7.26.0.Final-redhat-00005"
+                                 "org.jbpm:jbpm-workitems-rest:7.39.0.Final-redhat-00007"
 
             ],
             "icon" : "Rest.png"
