@@ -9,8 +9,8 @@
   <name>swiss</name>
   <description></description>
   <properties>
-    <maven.jdbc.driver.class>com.mysql.jdbc.Driver</maven.jdbc.driver.class>
     <maven.jdbc.password>root</maven.jdbc.password>
+    <maven.jdbc.driver.class>com.mysql.jdbc.Driver</maven.jdbc.driver.class>
     <maven.jdbc.url>mysql://localhost:3306/prueba</maven.jdbc.url>
     <maven.jdbc.username>root</maven.jdbc.username>
   </properties>
